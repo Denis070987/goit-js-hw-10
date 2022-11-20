@@ -7,9 +7,14 @@ body {
     Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #fafafa;
-  color: #212121;
+  /* background-color: #fafafa; */
+  background-image: url(/images/background.jpg);
   line-height: 1.5;
+  color: rgba(255, 255, 255, 0);
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px #fff,
+    0 0 11px rgba(0, 217, 255, 0.473), 0 0 20px rgba(0, 217, 255, 0.479),
+    0 0 30px rgba(0, 217, 255, 0.466), 0 0 55px rgba(0, 217, 255, 0.473),
+    0 0 80px rgba(0, 217, 255, 0.473);
 }
 
 #search-box {
@@ -17,4 +22,52 @@ body {
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.country-info .country-list {
+  font-size: 20px;
+}
+
+li {
+  justify-content: baseline;
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+
+p {
+  margin-left: 20px;
+}
+span {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+ul {
+  list-style: none;
+}
+
+.wrapper {
+  text-align: center;
+}
+
+.text {
+  color: #fff;
+  text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 5px #fff,
+    0 0 11px rgb(0, 217, 255), 0 0 20px rgb(0, 217, 255),
+    0 0 30px rgb(0, 217, 255), 0 0 55px rgb(0, 217, 255),
+    0 0 80px rgb(0, 217, 255);
+}
+
+img {
+  border: solid 2px #fff;
+  border-radius: 0.8rem;
+  box-shadow: 0 0 0.1rem #fff, 0 0 0.2rem #fff, 0 0 0.3rem rgb(0, 217, 255),
+    0 0 0.8rem rgb(0, 217, 255), 0 0 1rem rgb(0, 217, 255),
+    inset 0 0 1.3rem rgb(0, 217, 255);
 }
